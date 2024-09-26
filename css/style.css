@@ -35,7 +35,6 @@ body {
 
 
 
-
 body.menu-show {
   overflow: hidden;
   position: fixed;
@@ -454,26 +453,21 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   }
 }
 
-.ri-grid {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto; 
-  box-sizing: border-box;
+
+#fh5co-photos-section, #fh5co-contact-section,
+#fh5co-services-section, #fh5co-about-section,
+#fh5co-map-section {
+  padding-bottom: 5em;
 }
 
-.ri-grid ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0; 
-  width: 100%;
-  gap: 20px;
+#fh5co-intro-section {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
+
 
 .ri-grid ul li {
-  flex: 1 1 calc(33.333% - 20px);
-  box-sizing: border-box;
+  background: transparent !important;
 }
 .ri-grid ul li a .desc {
   position: absolute;
@@ -515,17 +509,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   border: 1px solid red;
 }
 
-@media screen and (max-width: 768px) {
-  .ri-grid ul li {
-    flex: 1 1 calc(50% - 20px); /* Two items per row on smaller screens */
-  }
-}
 
-@media screen and (max-width: 480px) {
-  .ri-grid ul li {
-    flex: 1 1 calc(100% - 20px); /* One item per row on very small screens */
-  }
-}
 .grid-photo {
   position: relative;
   width: 100%;
