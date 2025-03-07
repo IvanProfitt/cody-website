@@ -308,6 +308,10 @@ header .fh5co-navbar-brand .fh5co-logo {
   color: #000;
   font-weight: 300;
 }
+.logo{
+  height:20vw;
+  max-height:100px;
+}
 header .fh5co-navbar-brand .fh5co-logo i {
   font-size: 50px;
 }
